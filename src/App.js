@@ -1,4 +1,8 @@
 import SubjectList from "./SubjectList";
+import Counter from "./Counter";
+import WrongCounter from "./WrongCounter";
+import SubjectList2 from "./SubjectList2";
+import TempConverter from "./TempConverter";
 
 function App() {
   return (
@@ -6,6 +10,10 @@ function App() {
       Hello World
       <SubjectList data={CMSCSubjects} title={'Computer Science Subjects'} />
       <SubjectList data={CHEMSubjects} title={'Chemistry'} />
+      <Counter val={10} />
+      {/* <WrongCounter /> */}
+      <SubjectList2 list={CMSCSubjects} />
+      <TempConverter />
     </div>
   );
 }
