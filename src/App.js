@@ -11,7 +11,7 @@ function App() {
       <SubjectList data={CMSCSubjects} title={'Computer Science Subjects'} />
       <SubjectList data={CHEMSubjects} title={'Chemistry'} />
       <Counter val={10} />
-      {/* <WrongCounter /> */}
+      <WrongCounter />
       <SubjectList2 list={CMSCSubjects} />
       <TempConverter />
     </div>
